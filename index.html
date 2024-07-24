@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Калькулятор индекса массы тела</header>
+    <div class="calculator">
+      <label for="weight"
+        >Введите вес(кг):
+        <input type="number" id="weight" />
+      </label>
+      <label for="height"
+        >Введите рост(cм):
+        <input type="number" id="height" />
+      </label>
+      <button onclick="calculate()">Рассчитать</button>
+      <div id="result">Результат</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
